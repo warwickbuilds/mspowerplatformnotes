@@ -29,6 +29,17 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Related Guides',
+          items: [
+            { label: 'ShareGate Migration', slug: 'related-guides/sharegate-migration' },
+            { label: 'Modern Search', slug: 'related-guides/modern-search' },
+            { label: 'PnP Modern Search', slug: 'related-guides/pnp-modern-search' },
+            { label: 'PnP PowerShell', slug: 'related-guides/pnp-powershell' },
+            { label: 'Azure Function Apps', slug: 'related-guides/azure-function-apps' },
+            { label: 'Azure Logic Apps', slug: 'related-guides/azure-logic-apps' },
+          ],
+        },
+        {
           label: 'Site',
           items: [
             { label: 'About', slug: 'about' },
