@@ -15,7 +15,7 @@ Contributions are welcome and encouraged. The process is a standard GitHub fork-
 
 ### 1. Fork the repository
 
-Go to the [GitHub repository](https://github.com/YOUR_GITHUB_USERNAME/power-platform-notes) and click **Fork**.
+Go to the [GitHub repository](https://github.com/warwickbuilds/mspowerplatformnotes) and click **Fork**.
 
 ### 2. Clone your fork
 
@@ -64,4 +64,4 @@ Go to your fork on GitHub and click **Compare & pull request**. Describe what yo
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/YOUR_GITHUB_USERNAME/power-platform-notes/discussions) or raise an issue.
+Open a [GitHub Discussion](https://github.com/warwickbuilds/mspowerplatformnotes/discussions) or raise an issue.

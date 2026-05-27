@@ -12,10 +12,10 @@ export default defineConfig({
         replacesTitle: false,
       },
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/YOUR_GITHUB_USERNAME/power-platform-notes' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/warwickbuilds/mspowerplatformnotes' },
       ],
       editLink: {
-        baseUrl: 'https://github.com/YOUR_GITHUB_USERNAME/power-platform-notes/edit/main/',
+        baseUrl: 'https://github.com/warwickbuilds/mspowerplatformnotes/edit/main/',
       },
       sidebar: [
         {
