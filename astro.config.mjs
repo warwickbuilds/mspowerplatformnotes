@@ -18,30 +18,21 @@ export default defineConfig({
         baseUrl: 'https://github.com/warwickbuilds/mspowerplatformnotes/edit/main/',
       },
       sidebar: [
-        {
-          label: 'Getting Started',
-          items: [
-            { label: 'Welcome', slug: 'index' },
-            { label: 'About This Site', slug: 'about' },
-            { label: 'How to Contribute', slug: 'contributing' },
-          ],
-        },
-        {
-          label: 'Awesome List',
-          items: [
-            { label: 'Power Platform Resources', slug: 'awesome/power-platform' },
-            { label: 'Power Apps', slug: 'awesome/power-apps' },
-            { label: 'Power Automate', slug: 'awesome/power-automate' },
-            { label: 'Copilot Studio', slug: 'awesome/copilot-studio' },
-          ],
-        },
+        { label: 'Awesome List', slug: 'index' },
         {
           label: 'Overviews',
           items: [
-            { label: 'Power Platform Overview', slug: 'overviews/power-platform' },
-            { label: 'Power Apps Overview', slug: 'overviews/power-apps' },
-            { label: 'Power Automate Overview', slug: 'overviews/power-automate' },
-            { label: 'Copilot Studio Overview', slug: 'overviews/copilot-studio' },
+            { label: 'Power Platform', slug: 'overviews/power-platform' },
+            { label: 'Power Apps', slug: 'overviews/power-apps' },
+            { label: 'Power Automate', slug: 'overviews/power-automate' },
+            { label: 'Copilot Studio', slug: 'overviews/copilot-studio' },
+          ],
+        },
+        {
+          label: 'Site',
+          items: [
+            { label: 'About', slug: 'about' },
+            { label: 'How to Contribute', slug: 'contributing' },
           ],
         },
       ],
@@ -53,6 +44,10 @@ export default defineConfig({
             name: 'keywords',
             content: 'Power Platform, Power Apps, Power Automate, Copilot Studio, Microsoft, low-code, notes',
           },
+        },
+        {
+          tag: 'script',
+          content: `if (!localStorage.getItem('starlight-theme')) { document.documentElement.setAttribute('data-theme', 'light'); localStorage.setItem('starlight-theme', 'light'); }`,
         },
       ],
     }),
